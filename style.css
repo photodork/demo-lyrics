@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 *{
-    font-size: 20px;
+    font-size: 25px;
     background-color: #2C5530;
     color: #F3FFB6;
+    margin: 3px 3px;
 }
 .title{
-    font-size: 35px;
+    font-size: 2.5rem;
     text-align: center;
+    text-shadow: 5px 3px 4px black;
 }
 .song{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -15,10 +18,43 @@
 }
 .lyrics{
     color: white;
+    border: solid;
+    margin: 17px;
+    padding: 12px;
+    width: 900px;
+    text-align: center;
+    font-size: 60px;
+    line-height: 1.7rem;
 }
 .link{
     color: #0000EE;
 }
 .button{
-    background-color: #002500
+    background-color: #002500;
+    float: left;
+}
+.cover{
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 25px;
+    margin-left: 10px;
+}
+.ar{
+    float: right;
+    margin-right: 25px;
+}
+.al{
+    margin-left: 25px;
+}
+#credit{
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.2rem;
+    margin-left: 7px;
+}
+.footer{
+    text-align: center;
+}
+#warn{
+    font-family: "Roboto Condensed", sans-serif;
 }
