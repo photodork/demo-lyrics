@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-*{
-    font-size: 25px;
-    background-color: #2C5530;
-    color: #F3FFB6;
-    margin: 3px 3px;
-}
+
 .title{
     font-size: 2.5rem;
     text-align: center;
@@ -23,8 +18,8 @@
     padding: 12px;
     width: 900px;
     text-align: center;
-    font-size: 60px;
-    line-height: 1.7rem;
+    font-size: 25px;
+    line-height: 3rem;
 }
 .link{
     color: #0000EE;
@@ -42,18 +37,24 @@
 .ar{
     float: right;
     margin-right: 25px;
+    font-size: 20px;
 }
 .al{
     margin-left: 25px;
+    font-size: 20px;
 }
 #credit{
     text-align: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 0.2rem;
     margin-left: 7px;
+    font-size: 2rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .footer{
     text-align: center;
+    font-size: 22px;
 }
 #warn{
     font-family: "Roboto Condensed", sans-serif;
@@ -76,4 +77,19 @@ li{
     position: fixed;
     bottom: 5px;
     right: 10px;
+}
+nav{
+    font-size: 35px;
+}
+/* *{
+    background-color: #2C5530;
+    color: #F3FFB6;
+    margin: 3px 3px;
+} */
+
+#source{
+    font-size: 20px;
+}
+#vid{
+    font-size: 20px;
 }
